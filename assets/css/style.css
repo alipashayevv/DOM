@@ -1,0 +1,35 @@
+.big-sq{
+    background-color: black;
+    height: 200px;
+    margin: 10px 450px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: aquamarine; */
+    margin: 10px 450px;
+    column-gap: 30px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+#black{
+    background-color: black;
+    border: 2px solid black;
+    cursor:pointer;
+}
+#yellow{
+    background-color: yellow;
+    border: 2px solid black;
+}
+#aqua{
+    background-color: aqua;
+    border: 2px solid black;
+}
+#purple{
+    background-color: purple;
+    border: 2px solid black;
+}
+
